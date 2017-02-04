@@ -4,5 +4,9 @@
 
 This project has two main goals
 
-*1 Get Wordpress as a depency within your Laravel App
-*2 Access the Wordpress data on a Eloquent like approach.
+1. Get Wordpress as a depency within your Laravel App.
+2. Access the Wordpress data on a Eloquent like approach.
+
+To achieve this we combined two great libraries from Github. For Wordpress as a dependency we use John P. Bloch's [composer added Wordpress] (https://github.com/johnpbloch/wordpress). 
+
+To access the data with an Eloquent Approad we use the outstanding library from Junio Grossi; [Corcel] (https://github.com/corcel/corcel)
